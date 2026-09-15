@@ -69,17 +69,6 @@ function Dashboard() {
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-{/* 
-        <select
-          value={department}
-          onChange={(e) =>
-            setDepartment(e.target.value)
-          }
-        >
-          <option value="IT">IT</option>
-          <option value="HR">HR</option>
-          <option value="Finance">Finance</option>
-        </select> */}
         <select value={department} onChange={(e) => setDepartment(e.target.value)}>
   <option value="IT">IT</option>
   <option value="HR">HR</option>
